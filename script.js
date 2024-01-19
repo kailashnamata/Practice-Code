@@ -100,5 +100,5 @@ function onSort() {
 }
 
 function onFilter() {
-    document.getElementById("filteredArray").innerText = array.filter(function (array) { return array > 10 });
+    document.getElementById("filteredArray").innerText = array.filter(function (array) { return array > 5 });
 }
