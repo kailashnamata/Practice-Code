@@ -1,0 +1,96 @@
+.div1 {
+    background-color: blue;
+    margin-top: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.div2 {
+    background-color: aqua;
+    margin-top: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.div21 {
+    background-color: rgb(117, 246, 12);
+    margin-top: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.div22 {
+    background-color: rgb(210, 3, 3);
+    margin-top: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.div23 {
+    background-color: rgb(205, 0, 178);
+    margin-top: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.div24 {
+    background-color: rgb(106, 248, 255);
+    margin-top: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.div25 {
+    background-color: rgb(0, 95, 52);
+    margin-top: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.div26 {
+    background-color: rgb(236, 138, 2);
+    margin-top: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.div27 {
+    background-color: rgb(255, 255, 0);
+    margin-top: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.div28 {
+    background-color: rgb(0, 157, 255);
+    margin-top: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.div29 {
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.div3 {
+    margin-top: 20px;
+}
+
+.numberLabel {
+    margin-left: 25px;
+    background-color: beige;
+    height: 30px;
+    width: 30px;
+    left: 50%;
+}
+
+.colorid {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: dotted;
+    text-align: center;
+}

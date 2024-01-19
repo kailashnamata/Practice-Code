@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <title>JS Tutorial</title>
+    <!-- <script src="assignments.js"></script>
+    <script src="script.js"></script> -->
+    <script src="./script.js"></script>
+    <link rel="styleSheet" href="./style.css">
+</head>
+
+<body>
+    <div style="align-content: center;color: aqua; background-color: azure;">
+        <h1>Hello World..!</h1>
+    </div>
+
+    <div style="background-color: green; width: 300px; justify-items: center; align-content: center;">
+        <button onclick="getTeam1Players1()">Get Team 1</button>
+        <button onclick="getTeam1Players2()">Get Team 2</button>
+        <button onclick="changeColor()">Change Color</button>
+        <div id="divHai" class="div1">
+            <label id="colorid" class="colorid" style="margin-left: 10px;"></label>
+        </div>
+
+    </div>
+
+    <div>
+        <div class="div3">
+            <div>
+                <button onclick="randomNumber()">Get Random Number</button>
+                <ul id="playerList1">Team 1</ul><br>
+            </div>
+            <div class="numberLabel">
+                <label id="setNumber"></label>
+            </div>
+        </div>
+        <ul id="playerList2">Team 2</ul>
+    </div>
+
+    <div style="margin: 30px;">
+        <button onclick="count()">Count</button>
+        <button style="margin-left: 10px;" onclick="resetCount()">Reset</button>
+        <input id="count" style="margin: 50px; width: 20px;"></input>
+
+        <input value="" style="width: 50px;" id="array" type="number" />
+        <button onclick="onAddArray()">Add Number</button>
+        <label id="arrayValue" style="margin-left: 25px; width: 50px; justify-content: flex-start;"></label>
+        <button style="margin-left: 25px;" onclick="onSort()">Sort Array</button>
+        <label id="sortedArray" style="margin-left: 25px; width: 50px; justify-content: flex-start;"></label>
+        <button style="margin-left: 25px;" onclick="onFilter()">Get filtered Array</button>
+        <label id="filteredArray" style="margin-left: 25px; width: 50px; justify-content: flex-start;"></label>
+    </div>
+
+</body>
+
+</html>
